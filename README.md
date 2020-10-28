@@ -10,5 +10,7 @@ firewall-cmd --zone=public --permanent --add-service=http --add-service=https
 
 # CentOS7 Allo firewall to open a port
 firewall-cmd --zone=public --permanent --add-port=5000/tcp
+
+
 firewall-cmd --reload
 
